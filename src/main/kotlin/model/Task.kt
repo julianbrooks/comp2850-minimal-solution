@@ -6,7 +6,7 @@ import java.util.UUID
 
 /**
  * Task data model.
- * Represents a single todo item in the task manager.
+ * Represents a single 'to do' item in the task manager.
  *
  * **Privacy note**: No PII stored. Tasks are anonymous and associated
  * only with session IDs (also anonymous).
