@@ -59,7 +59,7 @@ object TaskRepository {
     fun find(id: Int): Task? = tasks.find { it.id == id }
 
     fun update(task: Task) {
-        tasks.find { it.id == task.id }?.let { it.title = task.title }
+        find(task.id)?.let { it.title = task.title }
         persist()
     }
 
